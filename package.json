@@ -1,0 +1,28 @@
+{
+  "name": "coindex",
+  "version": "1.0.0",
+  "description": "Build a nodejs CLI for cryptocurrency prices based on currency",
+  "main": "index.js",
+  "bin": "./bin/coindex.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pritamleo841/coindex-nodeJS.git"
+  },
+  "author": "Pritam Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pritamleo841/coindex-nodeJS/issues"
+  },
+  "homepage": "https://github.com/pritamleo841/coindex-nodeJS#readme",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "colors": "^1.4.0",
+    "commander": "^9.0.0",
+    "configstore": "^5.0.0",
+    "inquirer": "^8.2.0",
+    "to-words": "^3.1.0"
+  }
+}
