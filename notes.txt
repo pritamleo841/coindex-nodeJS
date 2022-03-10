@@ -1,6 +1,4 @@
 
-Please note: as of July 2021 your program will not work 
-if you are using the latest version of configstore (6.0.0).  
-to make this work you need to use the version of configstore Brad uses in his tutorial
- which is ^5.0.1.  in your package.json change the version, 
-delete the configstore folder from your node_modules directory, and re-do npm install.
+Please note: as of July 2021 your program will not work if you are using the latest version of configstore (6.0.0).  
+To make this work you need to use the version of configstore as ^5.0.1.
+In your package.json change the version, delete the configstore folder from your node_modules directory, and re-do npm install.
