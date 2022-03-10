@@ -9,13 +9,5 @@ program
     .command('check','Check Coin Price Information')
     .parse(process.argv);
 
-let currentdate = new Date(); 
-let datetime = currentdate.getDate() + "/"
-            + (currentdate.getMonth()+1)  + "/" 
-            + currentdate.getFullYear() + " @ "  
-            + currentdate.getHours() + ":"  
-            + currentdate.getMinutes() + ":" 
-            + currentdate.getSeconds();
 
 console.log('\nHi All! Welcome to Coindex -CLI'.yellow);
-console.log(`@${datetime}\nTop 6 Crptocurrencies are -`.blue);
